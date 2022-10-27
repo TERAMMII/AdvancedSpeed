@@ -1,0 +1,17 @@
+---
+name: AdvancedSpeed
+version: 0.0.1
+main: TERAMI\AdvancedSpeed\Main
+api: 4.9.0
+src-namespace-prefix: TERAMI\AdvancedSpeed
+
+commands:
+  speed:
+    description: Adjust your speed.
+    permission: speed.command
+
+permissions:
+    speed.command:
+        description: Allow using command /speed
+        default: op
+...
