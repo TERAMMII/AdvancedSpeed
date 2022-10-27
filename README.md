@@ -5,4 +5,4 @@ Change your flight speed in PocketMine-MP server!
 
 | Command | Description                   | Usage                   | Example                  | Permissions |
 | ------- | ----------------------------- | ----------------------- | ------------------------ | ----------- |
-| /speed  | Changes your speed value | /speed <ground:flight> <amplifier> | /speed ground 2.0 | OP          |
+| /speed  | Changes your speed value | /speed <ground:flight> <value> | /speed ground 2.0 | OP          |
