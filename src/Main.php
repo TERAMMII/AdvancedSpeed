@@ -37,9 +37,6 @@ class Main extends PluginBase implements Listener
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool
 	{
 		switch (strtolower($command->getName())) {
-			case "monkeygangshit":
-				$sender->sendMessage("monkey gang shit o m g!!");
-                return true;
 			case "speed":
 				if (isset($args[0]) && isset($args[1])) {
 					if (($amplifier = floatval($args[1])) == 0) {
